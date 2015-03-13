@@ -3,11 +3,11 @@ itemGroup.ThaumicTinkerer=神秘工匠
 ttmisc.connector.set=位置已設置!
 ttmisc.keyCategory=神秘工匠
 ttmisc.connector.complete=已綁定!
-ttmisc.connector.notinterf=並非向量傳輸界面
-ttmisc.connector.interffail=不能將向量傳輸界面綁定到向量傳輸界面上去
-ttmisc.connector.dislfail=無法將向量傳輸界面綁定到另一個上去.
-ttmisc.connector.notpresent=該向量傳輸界面已經不存在了
-ttmisc.connector.toofar=原來的向量傳輸界面太遠了
+ttmisc.connector.notinterf=並非向量變形界面
+ttmisc.connector.interffail=不能將向量變形界面綁定到向量變形界面上去
+ttmisc.connector.dislfail=無法將向量變形界面綁定到另一個上去.
+ttmisc.connector.notpresent=該向量變形界面已經不存在了
+ttmisc.connector.toofar=原來的向量變形界面太遠了
 ttmisc.golemconnector.set=鏈接已設定!
 ttmisc.golemconnector.complete=綁定已完成!
 ttmisc.golemconnector.notinterf=鏈接器未與傀儡鏈接方塊綁定.
@@ -40,7 +40,7 @@ ttmisc.shareTomb.offlineshare=離線分享
 ttmisc.shareTome.sync=已獲得研究.
 ttmisc.shareTome.noAssign=未分配
 ttmisc.shareTome.playerName=綁定到%s的研究上.
-ttmisc.toggleArmor=切換啟用護甲
+ttmisc.toggleArmor=切換覺醒護甲
 
 # KAMI MISC
 ttmisc.mode.pick.0=方塊模式
@@ -77,7 +77,7 @@ ttmisc.noTeleport=目的地處的天域之門不接受傳入.
 
 # ITEM NAMES
 item.darkQuartzItem.name=煙黑石英
-item.connector.name=向量傳輸綁定器
+item.connector.name=向量變形綁定器
 item.gaseousLightItem.name=光明氣瓶
 item.gaseousShadowItem.name=暗影氣瓶
 item.gasRemover.name=煙霧驅散器
@@ -114,7 +114,7 @@ item.ichorium.name=靈錠
 item.ichorNugget.name=靈錠粒
 item.ichorCap.name=靈錠杖端
 item.ichorclothRod.name=靈布包層銀樹杖柄
-item.netherShard.name=下界碎片
+item.netherShard.name=地獄碎片
 item.enderShard.name=終界碎片
 item.ichorclothHelm.name=靈布頭巾
 item.ichorclothChest.name=靈布法袍
@@ -122,9 +122,9 @@ item.ichorclothLegs.name=靈布護腿
 item.ichorclothBoots.name=靈布靴子
 item.ichorclothHelmGem.name=無盡深淵之帽
 item.ichorclothChestGem.name=雲霄塔之法袍
-item.ichorclothLegsGem.name=熔巖地幔之護腿
+item.ichorclothLegsGem.name=熔岩地幔之護腿
 item.ichorclothBootsGem.name=地平線盾牌之靴
-item.catAmulet.name=貓靈護身符
+item.catAmulet.name=貓神護身符
 item.ichorPick.name=靈錠鎬
 item.ichorShovel.name=靈錠鏟
 item.ichorAxe.name=靈錠斧
@@ -134,7 +134,7 @@ item.ichorShovelGem.name=覺醒靈錠鏟
 item.ichorAxeGem.name=覺醒靈錠斧
 item.ichorSwordGem.name=覺醒靈錠劍
 item.ichorPouch.name=無底袋
-item.blockTalisman.name=黑洞指環
+item.blockTalisman.name=黑洞戒指
 item.placementMirror.name=世界塑造者的觀察鏡
 item.focusShadowbeam.name=法杖核心:陰影之束
 item.focusXPDrain.name=法杖核心:經驗抽取
@@ -165,7 +165,7 @@ tile.fireAir.name=炫風之焰
 
 tile.darkQuartzSlabFull.name=煙黑石英台階
 tile.darkQuartzStairs.name=煙黑石英樓梯
-tile.interface.name=向量傳輸界面
+tile.interface.name=向量變形界面
 tile.animationTablet.name=活化工具台
 tile.magnet.name=奧術念力磁鐵
 tile.mobMagnet.name=奧術生物磁鐵
@@ -216,7 +216,7 @@ tc.research_category.TT_CATEGORY=神秘工匠
 # -- COMPUTERCRAFT PERIPHERALS
 ttresearch.name.PERIPHERALS=電腦外設
 ttresearch.lore.PERIPHERALS=當科學遇見魔法
-ttresearch.page.PERIPHERALS.0=神秘工匠讓其添加的某些方塊以及神秘時代添加的一些方塊可以作為電腦外設(ComputerCraft的外設)使用.<BR><BR>為方便起見,使用這些外設的文檔放置在網上以供查詢.按下回車可以訪問對應的頁面.
+ttresearch.page.PERIPHERALS.0=神秘工匠讓其添加的某些方塊以及神秘時代添加的一些方塊可以作為電腦外設(ComputerCraft 的 peripherals)使用.<BR><BR>為方便起見,使用這些外設的文件放置在網上以供查詢.按下輸入鍵可以訪問對應的頁面.
 # Note: For people who localize the mod. If you have custom documentation, feel free to include in your PR a
 # link to it and the short URL (see above) you want for it on my website and I'll add it. 
 ttresearch.webpage.peripherals=https://github.com/Vazkii/ThaumicTinkerer/wiki/Peripheral-Documentation
@@ -224,32 +224,32 @@ ttcomputer.dissipator=耗散中
 # -- ASPECT ANALYZER
 ttresearch.name.ASPECT_ANALYZER=要素分析儀
 ttresearch.lore.ASPECT_ANALYZER=電腦掃描
-ttresearch.page.ASPECT_ANALYZER.0=你制造出一台可以使用電腦來掃描出物品蘊含何種要素的設備.<BR><BR>這台設備類似一個包含物品欄的普通容器,但任何放入其內的物品都可以使用電腦掃描.訪問電腦外設文檔條目以獲取更多信息.
+ttresearch.page.ASPECT_ANALYZER.0=你製造出一台可以使用電腦來掃描出物品蘊含何種要素的設備.<BR><BR>這台設備類似一個包含物品欄的普通容器,但任何放入其內的物品都可以使用電腦掃描.訪問電腦外設文件條目以獲取更多資訊.
 
 # -- SMOKEY QUARTZ
 ttresearch.name.DARK_QUARTZ=煙黑石英
 ttresearch.lore.DARK_QUARTZ=暗影之日
-ttresearch.page.DARK_QUARTZ.0=煙黑石英肖似普通的石英,但性狀相反.石英為材料的方塊都能用煙黑石英做,但是看起來是黑色的.<BR><BR>煙黑使用可以用煤炭或者木炭以及普通下界石英制成.
+ttresearch.page.DARK_QUARTZ.0=煙黑石英肖似普通的石英,但性狀相反.石英為材料的方塊都能用煙黑石英做,但是看起來是黑色的.<BR><BR>煙黑使用可以用煤炭或者木炭以及普通地獄石英制成.
 
 # -- TOME OF KNOWLEDGE SHARING
 ttresearch.name.SHARE_TOME=知識分享之書
 ttresearch.lore.SHARE_TOME=金魚的日記
-ttresearch.page.SHARE_TOME.0=假如有朝一日,你碰巧想要將你的知識分享給這世界上其他的人,那麽這本書將正合你用.<BR><BR>右擊本書,當你在線時將它交給其他人閱讀,他們便能學會迄今為止你所研究出的一切知識.<BR><BR>(註意: 如若右側未曾顯示合成表,則說明目前合成方法禁用,此時該物品僅在創造模式下有效.)
+ttresearch.page.SHARE_TOME.0=假如有朝一日,你碰巧想要將你的知識分享給這世界上其他的人,那麽這本書將正合你用.<BR><BR>右擊本書,當你在線上時將它交給其他人閱讀,他們便能學會迄今為止你所研究出的一切知識.<BR><BR>(注意: 如若右側未曾顯示合成表,則說明目前合成方法禁用,此時該物品僅在創造模式下有效.)
 
 # -- TRANSVECTOR INTERFACE
-ttresearch.name.INTERFACE=向量傳輸界面
+ttresearch.name.INTERFACE=向量變形界面
 ttresearch.lore.INTERFACE=並不屬於妮悠
-ttresearch.page.INTERFACE.0=“事實就是,1個方塊只有6個面…”——Direwolf20.<BR><BR>神秘等於化不可能為可能!你最新制作的這台設備能夠與附近的方塊綁定,之後它的面會變成你選中的方塊的面的樣子,並且你能夠用這個面與選中的方塊互動.它能夠作為能量(BuildCraft(建築)與IC2(工業)的能量)輸入接口以及物品,源質,流體的輸入輸出接口.<BR>[continued]
-ttresearch.page.INTERFACE.1=為了將接口與其他方塊綁定,你需要制作一個被稱作向量傳輸界面綁定器的特殊工具.<BR><BR>右擊目標方塊之後右擊接口就能完成綁定操作.(註意：建築模組的管道需要在綁定後拆掉再裝才能有效)
+ttresearch.page.INTERFACE.0=“事實就是,1個方塊只有6個面…”——Direwolf20.<BR><BR>神秘等於化不可能為可能!你最新制作的這台設備能夠與附近的方塊綁定,之後它的面會變成你選中的方塊的面的樣子,並且你能夠用這個面與選中的方塊互動.它能夠作為能量(BuildCraft(建築)與IC2(工業)的能量)輸入界面以及物品,源質,流體的輸入輸出界面.<BR>[continued]
+ttresearch.page.INTERFACE.1=為了將界面與其他方塊綁定,你需要制作一個被稱作向量變形界面綁定器的特殊工具.<BR><BR>右擊目標方塊之後右擊界面就能完成綁定操作.(註意：建築模組的管道需要在綁定後拆掉再裝才能有效)
 ttresearch.page.INTERFACE.2=也可以手持另一個方塊右擊將其偽裝成那個方塊.要移除偽裝,只需要再次用空手右擊即可.
 
 # -- GOLEM CONNECTOR
 ttresearch.name.GOLEM_CONNECTOR=傀儡連接器
 ttresearch.lore.GOLEM_CONNECTOR=老實說,無關傀儡心靈控制!
 ttresearch.page.GOLEM_CONNECTOR.0=運動,工具,以及一點點秩序要素能夠做些什麽呢?經過你的一番研究,你發現你能夠利用它們讓傀儡變得更加馴服一點!你研究出一種方塊,當連接電腦以後,它將能夠讀出附近傀儡的意識,並“說服”傀儡們按照電腦的命令行事.
-ttresearch.page.GOLEM_CONNECTOR.1=為了讓連接器綁定傀儡,你需要制造一種特殊的工具.你稱其為矢量變換綁定器.<BR><BR>手持該工具右擊連接器,跟著按住shift右擊目標傀儡,兩者就會相互綁定,能夠進行接下來的操作.傀儡受到控制的範圍相當遠,足有三十格!
+ttresearch.page.GOLEM_CONNECTOR.1=為了讓連接器綁定傀儡,你需要製造一種特殊的工具.你稱其為向量變形綁定器.<BR><BR>手持該工具右擊連接器,跟著按住shift右擊目標傀儡,兩者就會相互綁定,能夠進行接下來的操作.傀儡受到控制的範圍相當遠,足有三十格!
 ttresearch.page.GOLEM_CONNECTOR.2=如拿著其他方塊右擊連接器,則會將它偽裝成所持方塊的樣子.空手再次右擊就能移除偽裝.
-ttresearch.page.GOLEM_CONNECTOR.3=<BR><BR>以方便故,該方塊所涉及之電腦模組操作函數皆列諸外置網頁.按下回車即可帶你進入相關頁面.<BR><BR>不幸的是,某些操作系統下超鏈接功能可能失效.若是,則請在瀏覽器中鍵入"vazkii.us/tt/docs.php"來進行訪問相關頁面.
+ttresearch.page.GOLEM_CONNECTOR.3=<BR><BR>以方便故,該方塊所涉及之電腦模組操作函數皆列於外部網頁.按下輸入鍵即可帶你進入相關頁面.<BR><BR>不幸的是,某些操作系統下超鏈接功能可能失效.若是,則請在瀏覽器中輸入"vazkii.us/tt/docs.php"來進行訪問相關頁面.
 # Note: For people who localize the mod. If you have custom documentation, feel free to include in your PR a
 # link to it and the short URL (see above) you want for it on my website and I'll add it. 
 ttresearch.webpage.peripherals=https://github.com/Vazkii/ThaumicTinkerer/wiki/Peripheral-Documentation
@@ -286,7 +286,7 @@ ttresearch.page.FOCUS_FLIGHT.0=研究風雷劍過程中積累的豐富知識讓�
 # -- WAND FOCUS: DISLOCATION
 ttresearch.name.FOCUS_DISLOCATION=法杖核心：轉移
 ttresearch.lore.FOCUS_DISLOCATION=在頭腦中構築堡壘因此它從不會崩塌.
-ttresearch.page.FOCUS_DISLOCATION.0=基於等價交換核心.你制作了這種新型的法杖核心.相比前者,新的法杖核心不但能夠存儲被施法對象的信息,還能存儲被施法對象本身,並允許你將其放置到任意地方.<BR><BR>想要轉移一個 方塊,需要先手持法杖右擊它.然後再右擊其他某處.這個法杖核心允許你轉移近乎任意方塊,包括箱子和刷怪籠.
+ttresearch.page.FOCUS_DISLOCATION.0=基於等價交換核心.你制作了這種新型的法杖核心.相比前者,新的法杖核心不但能夠存儲被施法對象的資訊,還能存儲被施法對象本身,並允許你將其放置到任意地方.<BR><BR>想要轉移一個 方塊,需要先手持法杖右擊它.然後再右擊其他某處.這個法杖核心允許你轉移近乎任意方塊,包括箱子和刷怪籠.
 ttresearch.page.FOCUS_DISLOCATION.1=它的魔力消耗決定於方塊的類型.放置時是不消耗的.<BR><BR>轉移所需能量的數量如,帶有tile entities的方塊(比如箱子和熔爐)5倍於平常的消耗.刷怪籠則更需要20倍消耗.
 
 # -- TALISMAN OF REMEDIUM
@@ -297,7 +297,7 @@ ttresearch.page.CLEANSING_TALISMAN.0=在研究生命以及肉體時,你發現可
 # -- HYPERNERGETIC NITOR
 ttresearch.name.BRIGHT_NITOR=超能閃耀之光
 ttresearch.lore.BRIGHT_NITOR=昏暗的天色,給我亮起來吧！
-ttresearch.page.BRIGHT_NITOR.0=你試圖創造一種新型的蘊含Potentia要素以及Lux要素的閃耀之光,即使被玩家拿在手裏也能通過活化永恒之焰來照亮四周.<BR><BR>被它釋放出來的光亮將會照亮持有者身後鄰近之處,由於其熱量,在下界時看似留下一道長長的尾跡.
+ttresearch.page.BRIGHT_NITOR.0=你試圖創造一種新型的蘊含Potentia要素以及Lux要素的閃耀之光,即使被玩家拿在手裏也能通過活化永恒之焰來照亮四周.<BR><BR>被它釋放出來的光亮將會照亮持有者身後鄰近之處,由於其熱量,在地獄時看似留下一道長長的軌跡.
 
 # -- WAND FOCUS: TELEKINESIS
 ttresearch.name.FOCUS_TELEKINESIS=法杖核心：念力
@@ -313,20 +313,20 @@ ttresearch.page.MAGNETS.1=你設計了兩種新設備：奧術念力磁鐵以及
 # -- OSMOTIC ENCHANTER
 ttresearch.name.ENCHANTER=滲透附魔台
 ttresearch.lore.ENCHANTER=幸運大挑選
-ttresearch.page.ENCHANTER.0=你開始厭倦辛勤付出卻換來一個糟糕的附魔.於是你制造了一種新型的附魔台,允許你挑選在工具上附魔確定的屬性.<BR><BR>這種新型裝置工作時需要法杖,每一種附魔類型都需求法杖提供特定的靈氣組合.附魔的成本與附魔等級以指數方式上漲.<BR><BR>這個附魔台同樣遵循一般附魔法則,比如,精準采集與時運不得同時附魔同一物品.
+ttresearch.page.ENCHANTER.0=你開始厭倦辛勤付出卻換來一個糟糕的附魔.於是你製造了一種新型的附魔台,允許你挑選在工具上附魔確定的屬性.<BR><BR>這種新型裝置工作時需要法杖,每一種附魔類型都需求法杖提供特定的靈氣組合.附魔的成本與附魔等級以指數方式上漲.<BR><BR>這個附魔台同樣遵循一般附魔法則,比如,精準採集與時運不得同時附魔同一物品.
 ttresearch.page.ENCHANTER.1=當你選擇了需要的附魔類型,點擊界面上紅色按鈕便可以開始附魔.在附魔過程中,你不能取走被附魔的物品,也不能改變你之前選擇的附魔類型.<BR><BR>附魔台會從發展中汲取魔力,知道附魔完成.為了讓附魔台的魔法儀式能夠順利完成,需要在附近立起6個4個方塊的柱子,這些柱子需要和附魔台在同一水平線上.<BR><BR>[continued]
 ttresearch.page.ENCHANTER.2=這些柱子用2~12個黑曜石圖騰方塊堆壘而成,上方放置著閃耀之光.附魔台將會從這些柱子中汲取咒波能量,從法杖中汲取魔力,集合這兩種力量最終完成附魔.
 
 # -- TALISMAN OF WITHHOLD
 ttresearch.name.XP_TALISMAN=匯魔護身符
-ttresearch.lore.XP_TALISMAN=多快好省
+ttresearch.lore.XP_TALISMAN=多快好省時
 ttresearch.page.XP_TALISMAN.0=僵屍之腦利用得當便能用於儲存經驗.你制作的這種護身符雖非完美,但也具有類似功能.<BR><BR>手持護身符按住潛行按鍵右擊可以啟用或者關閉護身符：啟用的護身符會吸收附近的經驗.當攜帶有空的玻璃瓶的時候,右擊護身符,可以釋放出經驗來填滿玻璃瓶得到附魔瓶.裝備在項鏈欄才有效.
 
 
 # -- ESSENTIA FUNNEL
 ttresearch.name.FUNNEL=要素漏斗
 ttresearch.lore.FUNNEL=縱已轉移
-ttresearch.page.FUNNEL.0=你對用安瓿來倒騰罐子裏的要素煩透了,因此你最終制造出一種新設備,能夠將罐子裏的要素轉移到其他罐子中.<BR><BR>將此方塊置於漏斗上方,用含有要素的罐子右擊,如果漏斗對接的是一個空罐子或者裝有相同要素的未滿罐子,那麽你手持罐子中的要素會向其轉移.
+ttresearch.page.FUNNEL.0=你對用安瓿來裝罐子裏的要素煩透了,因此你最終製造出一種新設備,能夠將罐子裏的要素轉移到其他罐子中.<BR><BR>將此方塊置於漏斗上方,用含有要素的罐子右擊,如果漏斗對接的是一個空罐子或者裝有相同要素的未滿罐子,那麽你手持罐子中的要素會向其轉移.
 
 # -- ENCHANTMENT: ASCENT BOOST
 ttresearch.name.TTENCH_ASCENT_BOOST=附魔:騰迅
@@ -341,12 +341,12 @@ ttresearch.page.TTENCH_SLOW_FALL.0=你研究出一種讓自己可以像雪花那
 # -- ENCHANTMENT: FLAMING TOUCH
 ttresearch.name.TTENCH_AUTO_SMELT=附魔:燃燒之觸
 ttresearch.lore.TTENCH_AUTO_SMELT=烈火神焰!
-ttresearch.page.TTENCH_AUTO_SMELT.0=你研究出一種憑空召喚火焰的附魔.<BR><BR>工具被施加該附魔後,能夠通過火焰的力量軟化木材結果從而輕易采伐任何木質品,且不會將其摧毀.然後,附魔後的工具將難以采集其他方塊,且耐久會雙倍地減少.
+ttresearch.page.TTENCH_AUTO_SMELT.0=你研究出一種憑空召喚火焰的附魔.<BR><BR>工具被施加該附魔後,能夠通過火焰的力量軟化木材結果從而輕易採伐任何木質品,且不會將其摧毀.然後,附魔後的工具將難以採集其他方塊,且耐久會雙倍地減少.
 
 # -- ENCHANTMENT: DESINTEGRATE
 ttresearch.name.TTENCH_DESINTEGRATE=附魔:解離
 ttresearch.lore.TTENCH_DESINTEGRATE=異界型時崎狂三
-ttresearch.page.TTENCH_DESINTEGRATE.0=你研究出一種能夠快速采集柔軟材料方塊的附魔.<BR><BR>附魔後的工具能夠非常輕易地采集泥土,石頭,下界巖這種常見的不是非常硬的材料,然後,該工具會變得難以采集其他方塊,且耐久雙倍減少.
+ttresearch.page.TTENCH_DESINTEGRATE.0=你研究出一種能夠快速採集柔軟材料方塊的附魔.<BR><BR>附魔後的工具能夠非常輕易地採集泥土,石頭,地獄巖這種常見的不是非常硬的材料,然後,該工具會變得難以採集其他方塊,且耐久雙倍減少.
 
 # -- ENCHANTMENT: QUICK DRAW
 ttresearch.name.TTENCH_QUICK_DRAW=附魔:即時戰備
@@ -395,14 +395,14 @@ ttresearch.page.TTENCH_SHOCKWAVE.0=你研究出一種能讓你利用落地的振
 
 # -- ENCHANTMENT: POUNCE
 ttresearch.name.TTENCH_POUNCE=附魔:貓爪
-ttresearch.lore.TTENCH_POUNCE=像只凱蒂貓
+ttresearch.lore.TTENCH_POUNCE=像隻凱蒂貓
 ttresearch.page.TTENCH_POUNCE.0=你研究出一種能讓你騎到敵人身上的附魔.<BR><BR>這種附魔能夠被施加在護腿上.穿戴上附魔的護腿後,處於空中時你的攻擊會變得更加強大.
 
 
 # -- WAND FOCUS: FOCUS_SMELT
 ttresearch.name.FOCUS_SMELT=法杖核心:伊夫利特之輝
 ttresearch.lore.FOCUS_SMELT=絲帶並沒讓它與眾不同
-ttresearch.page.FOCUS_SMELT.0=向采掘法杖核心灌註烈焰的力量能得到一種兼具兩者能力的新型法杖核心.<BR><BR>安裝該核心的法杖能夠向指向的方塊發出采掘之杖那樣的光束,並如同將其放入熔爐那樣冶煉成其他物品.
+ttresearch.page.FOCUS_SMELT.0=向採掘法杖核心灌註烈焰的力量能得到一種兼具兩者能力的新型法杖核心.<BR><BR>安裝該核心的法杖能夠向指向的方塊發出採掘之杖那樣的光束,並如同將其放入熔爐那樣冶煉成其他物品.
 
 # -- WAND FOCUS: MENDING
 ttresearch.name.FOCUS_HEAL=法杖核心:愈合
@@ -418,19 +418,19 @@ ttresearch.page.FOCUS_ENDER_CHEST.ES=通過將魔力手鏡和便攜式洞穴核�
 # -- CURSED SPIRIT'S BLADE
 ttresearch.name.BLOOD_SWORD=咒靈之劍
 ttresearch.lore.BLOOD_SWORD=你又不愉快了
-ttresearch.page.BLOOD_SWORD.0=你打造出一柄威力無雙的魔劍.然而要發揮這種威力必須以執劍者的鮮血飼之.<BR><BR>只要揮劍斬中任何東西,劍身都會抽取執劍者一顆心的生命值.而使用該劍格擋則無論受到多大程度的傷害總是固定丟失1.5顆心的傷害.<BR><BR>此外,只要手持該劍就能加持一個恒定光環來增加移動速度.
+ttresearch.page.BLOOD_SWORD.0=你打造出一把威力無雙的魔劍.然而要發揮這種威力必須以執劍者的鮮血飼之.<BR><BR>只要揮劍斬中任何東西,劍身都會抽取執劍者一顆心的生命值.而使用該劍格擋則無論受到多大程度的傷害總是固定丟失1.5顆心的傷害.<BR><BR>此外,只要手持該劍就能加持一個恒定光環來增加移動速度.
 ttresearch.page.BLOOD_SWORD.1=你也發現了這把劍能收割怪物的靈魂而不是普通的掉落物.該能力可通過shift右擊來啟用.這些靈魂含有豐富的源質,但你覺得它們還有其他的用途 .
 
 # -- Mob Summoning
 ttresearch.name.SUMMON=怪物召喚
 ttresearch.lore.SUMMON=近乎死靈法師
 ttresearch.page.SUMMON.0=如今你已能夠利用咒靈之劍捕獲的靈魂召喚出怪物.在死靈祭壇附近放置三個基座.於基座上放置三個靈魂要素.不同類型的靈魂要素對應不同類型的怪物.每種怪物的構成都不相同.
-ttresearch.page.SUMMON.1=通過制造注魔靈魂要素,無需消耗靈魂要素就能召喚出怪物.但使用注魔靈魂要素進行召喚,儀式會比平時更加緩慢.
+ttresearch.page.SUMMON.1=通過製造注魔靈魂要素,無需消耗靈魂要素就能召喚出怪物.但使用注魔靈魂要素進行召喚,儀式會比平時更加緩慢.
 
 # -- TRANSVECTOR DISLOCATOR
-ttresearch.name.DISLOCATOR=矢量轉位儀
+ttresearch.name.DISLOCATOR=向量轉位儀
 ttresearch.lore.DISLOCATOR=無需血魔法
-ttresearch.page.DISLOCATOR.0=通過研究Motion要素,你設法制造出一台能夠交換方塊空間位置的設備.<BR><BR>這台設備用起來類似向量傳輸界面,必須使用向量傳輸界面綁定器將它綁定到另一個位置,你可以通過法杖設置它的朝向,當接收到紅石信號後它會將朝向的方塊與綁定位置的方塊交換位置.它也能夠傳輸這些位置上的實體(生物,船,礦車等).<BR><BR>可以像偽裝向量傳輸界面那樣偽裝它.但它有更遠的工作範圍:高達16格.
+ttresearch.page.DISLOCATOR.0=通過研究Motion要素,你設法製造出一台能夠交換方塊空間位置的設備.<BR><BR>這台設備用起來類似向量變形界面,必須使用向量變形界面綁定器將它綁定到另一個位置,你可以通過法杖設置它的朝向,當接收到紅石信號後它會將朝向的方塊與綁定位置的方塊交換位置.它也能夠傳輸這些位置上的實體(生物,船,礦車等).<BR><BR>可以像偽裝向量變形界面那樣偽裝它.但它有更遠的工作範圍:高達16格.
 
 # -- HELMET OF REVEALING
 ttresearch.name.REVEALING_HELM=揭示之頭盔
@@ -440,17 +440,17 @@ ttresearch.page.REVEALING_HELM.0=事實表明,揭示之護目鏡沒辦法防禦�
 # -- THAUMIC REHABILITATOR
 ttresearch.name.REPAIRER=奧法修復台
 ttresearch.lore.REPAIRER=比用棍子穿過馬鈴薯的傷害還小
-ttresearch.page.REPAIRER.0=你制造出一台能夠修復破損工具的新設備.拿著破損工具右擊設備,該設備就會通過與之相連的要素源質管道匯集源質來修復物品.<BR><BR>能夠修復物品的要素按效率的次序分別是Ordo要素, Fabrico要素以及Instrumentum要素.<BR><BR>戴著護目鏡或者揭示之頭盔能夠看見完全修復該物品還需要多少要素源質.
+ttresearch.page.REPAIRER.0=你製造出一台能夠修復破損工具的新設備.拿著破損工具右擊設備,該設備就會通過與之相連的要素源質管道匯集源質來修復物品.<BR><BR>能夠修復物品的要素按效率的次序分別是Ordo要素, Fabrico要素以及Instrumentum要素.<BR><BR>戴著護目鏡或者揭示之頭盔能夠看見完全修復該物品還需要多少要素源質.
 
 # -- WAND FOCUS: DISTORTION
 ttresearch.name.FOCUS_DEFLECT=法杖核心:扭曲
 ttresearch.lore.FOCUS_DEFLECT=我不是天使
-ttresearch.page.FOCUS_DEFLECT.0=你制造出一種法杖核心,能夠防護你免遭來襲的火球傷害.<BR><BR>這種核心在使用時會持續抽取其插入的法杖內的魔力,以在施法者附近召喚出一道防護的幕墻,使得穿過它們的尋常炮彈變得毫無傷害.<BR><BR>此處尋常炮彈包括箭矢,雪球以及藥水.但似乎這種防護並不足以抵禦一些更強力的攻擊,比如火球或者雕靈頭顱.
+ttresearch.page.FOCUS_DEFLECT.0=你製造出一種法杖核心,能夠防護你免遭來襲的火球傷害.<BR><BR>這種核心在使用時會持續抽取其插入的法杖內的魔力,以在施法者附近召喚出一道防護的幕墻,使得穿過它們的尋常炮彈變得毫無傷害.<BR><BR>此處尋常炮彈包括箭矢,雪球以及藥水.但似乎這種防護並不足以抵禦一些更強力的攻擊,比如火球或者雕靈頭顱.
 
 # -- LEVITATOR
 ttresearch.name.LEVITATOR=懸浮平台
 ttresearch.lore.LEVITATOR=忽左忽右
-ttresearch.page.LEVITATOR.0=你制造出一台將東西移來移去的巧妙設備.將兩個懸浮平台中繼呈直線放置,它們之間會發出一道力場光束.如若粒子效果開啟能顯示出炫酷的視覺效果.<BR><BR> 將懸浮平台放置於它們所發出的光束上.懸浮平台會連同放置於其上的方塊，沿著直線來回移動.
+ttresearch.page.LEVITATOR.0=你製造出一台將東西移來移去的巧妙設備.將兩個懸浮平台中繼呈直線放置,它們之間會發出一道力場光束.如若粒子效果開啟能顯示出炫酷的視覺效果.<BR><BR> 將懸浮平台放置於它們所發出的光束上.懸浮平台會連同放置於其上的方塊，沿著直線來回移動.
 
 # -- ETHEREAL PLATFORM
 ttresearch.name.PLATFORM=天域平台
@@ -462,27 +462,27 @@ ttresearch.page.PLATFORM.0=你設計出一種方塊,僅對佇立於其上的人�
 # -- DIMENSIONAL SHARDS
 ttresearch.name.DIMENSION_SHARDS=次元裂片
 ttresearch.lore.DIMENSION_SHARDS=自新世界的珍奇
-ttresearch.page.DIMENSION_SHARDS.0=類似主世界,下界和末地同樣也有獨特的水晶碎片,有時候它們會極少見地出現在原住民,比如下界的僵屍豬人或者末地的終界人,手中.或許它們在今後的某些研究裏能派得上用場,盡管你還不能非常確定. <BR><BR><IMG>ttinkerer:textures/items/netherShard.png:0:0:255:255:0.0625</IMG><IMG>ttinkerer:textures/items/enderShard.png:0:0:255:255:0.0625</IMG>
+ttresearch.page.DIMENSION_SHARDS.0=類似主世界,地獄和終界同樣也有獨特的水晶碎片,有時候它們會極少見地出現在原住民,比如地獄的僵屍豬人或者終界的終界人,手中.或許它們在今後的某些研究裏能派得上用場,盡管你還不能非常確定. <BR><BR><IMG>ttinkerer:textures/items/netherShard.png:0:0:255:255:0.0625</IMG><IMG>ttinkerer:textures/items/enderShard.png:0:0:255:255:0.0625</IMG>
 
 # -- ICHOR
 ttresearch.name.ICHOR=靈液
 ttresearch.lore.ICHOR=神之血
-ttresearch.page.ICHOR.0=涉獵神秘學的全部科類,進行廣泛的研究,你發現了一種物質,你認為它將是你今後竭力研究的對象.<BR><BR>這種極端強大的物質,你名之為"靈液",蘊含著來自下界之星的天然覺醒之力.你確信今後它將會被廣泛應用於不計其數的設備.
+ttresearch.page.ICHOR.0=涉獵神秘學的全部科類,進行廣泛的研究,你發現了一種物質,你認為它將是你今後竭力研究的對象.<BR><BR>這種極端強大的物質,你名之為"靈液",蘊含著來自地獄之星的天然覺醒之力.你確信今後它將會被廣泛應用於不計其數的設備.
 
 # -- ICHORCLOTH
 ttresearch.name.ICHOR_CLOTH=靈布
 ttresearch.lore.ICHOR_CLOTH=戰維同步
-ttresearch.page.ICHOR_CLOTH.0=你研究出一種方法,能夠向魔力布匹灌入你新近的研究品靈液.有趣的是,灌註過程無需傳統的注魔台,只需讓靈液吸收掉鉆石,浸入布匹即可.<BR><BR>然而,要想順利完成該步驟,你不僅需要手持完全充能的你之前研究出的最好的法杖,並且還必須身著全套神秘使法袍,只有如此才能提高足夠的能量完成注魔.<BR><BR>你覺得是時候考慮設計新的法杖了.
+ttresearch.page.ICHOR_CLOTH.0=你研究出一種方法,能夠向魔力布匹灌入你新近的研究品靈液.有趣的是,灌註過程無需傳統的注魔台,只需讓靈液吸收掉鑽石,浸入布匹即可.<BR><BR>然而,要想順利完成該步驟,你不僅需要手持完全充能的你之前研究出的最好的法杖,並且還必須身著全套神秘使法袍,只有如此才能提高足夠的能量完成注魔.<BR><BR>你覺得是時候考慮設計新的法杖了.
 
 # -- ICHORIUM
 ttresearch.name.ICHORIUM=靈錠
 ttresearch.lore.ICHORIUM=並非來自第55層
-ttresearch.page.ICHORIUM.0=對靈液更加深入的研究揭示其具有與凡俗物質混合的能力.將靈液與多數凡俗物質混合通常得不到什麽好的結果,但你曾經將它與鉆石和布匹混合得出成功,而這一次,你嘗試了神秘錠.<BR><BR>新得到的這種合金強度極高,韌性極佳,凡俗的材料從未達到過如此卓絕的指標.你目前尚未研究出它的具體應用,但你知道這應該花不了太長時間.
+ttresearch.page.ICHORIUM.0=對靈液更加深入的研究揭示其具有與凡俗物質混合的能力.將靈液與多數凡俗物質混合通常得不到什麽好的結果,但你曾經將它與鑽石和布匹混合得出成功,而這一次,你嘗試了神秘錠.<BR><BR>新得到的這種合金強度極高,韌性極佳,凡俗的材料從未達到過如此卓絕的指標.你目前尚未研究出它的具體應用,但你知道這應該花不了太長時間.
 
 # -- ICHORCLOTH STRAPPED SILVERWOOD WAND CORE
 ttresearch.name.ROD_ICHORCLOTH=靈布包層銀樹杖柄
 ttresearch.lore.ROD_ICHORCLOTH=塞滿嘴
-ttresearch.page.ROD_ICHORCLOTH.0=幹得漂亮.用靈布對銀樹杖芯注魔,你設法制造出了一支終極杖柄.<BR><BR>這支杖柄對各種魔力的容量都高達1000點.用於加工各種昂貴的奧術材料都綽綽有余,毫無壓力.現在擺在你面前的問題反而是,上哪弄那麽多魔力充滿它呢? 
+ttresearch.page.ROD_ICHORCLOTH.0=幹得漂亮.用靈布對銀樹杖芯注魔,你設法製造出了一支終極杖柄.<BR><BR>這支杖柄對各種魔力的容量都高達1000點.用於加工各種昂貴的奧術材料都綽綽有余,毫無壓力.現在擺在你面前的問題反而是,上哪弄那麽多魔力充滿它呢? 
 
 # -- ICHORIUM WAND CAPS
 ttresearch.name.CAP_ICHOR=靈錠杖端
@@ -492,7 +492,7 @@ ttresearch.page.CAP_ICHOR.0=你將靈錠錠投入了它的第一項應用,用於
 # -- ICHORCLOTH ARMOR
 ttresearch.name.ICHORCLOTH_ARMOR=靈布法袍
 ttresearch.lore.ICHORCLOTH_ARMOR=神威千古…等等
-ttresearch.page.ICHORCLOTH_ARMOR.0=你研究出如何將靈布編織成衣服.<BR><BR>這些新織就的服飾皆具有凡俗鉆石套抵禦傷害之效用.不僅如此,這套衣服沒有耐久一說,永遠都不會刮擦磨損.
+ttresearch.page.ICHORCLOTH_ARMOR.0=你研究出如何將靈布編織成衣服.<BR><BR>這些新織就的服飾皆具有凡俗鑽石套抵禦傷害之效用.不僅如此,這套衣服沒有耐久一說,永遠都不會刮擦磨損.
 
 # -- COWL OF THE ABYSSAL DEPTHS
 ttresearch.name.ICHORCLOTH_HELM_GEM=無盡深淵之帽
@@ -505,7 +505,7 @@ ttresearch.lore.ICHORCLOTH_CHEST_GEM=人們也可以穿穿這個
 ttresearch.page.ICHORCLOTH_CHEST_GEM.0=你研究出一種方法,能夠改造靈布法袍,讓它變得更加強大.<BR><BR>首先,穿戴上這種法袍會受到飛行能量的護佑,背後生長出燃燒的羽翼,能夠讓你在短時間內(5分鐘內)飛上天任意遨遊,並且無視掉落傷害.<BR>不僅如此,類似扭曲法杖核心的威能,穿戴這件法袍後還能抵禦箭矢火球等拋射物的襲擊.按U可關閉護甲特殊效果.
 
 # -- LEGGINGS OF THE BURNING MANTLE
-ttresearch.name.ICHORCLOTH_LEGS_GEM=熔巖地幔之護腿
+ttresearch.name.ICHORCLOTH_LEGS_GEM=熔岩地幔之護腿
 ttresearch.lore.ICHORCLOTH_LEGS_GEM=暖意
 ttresearch.page.ICHORCLOTH_LEGS_GEM.0=你研究出一種方法,能夠改造靈布護腿,讓它變得更加強大.<BR><BR>這種護腿被灌入了靈魂的烈焰。<BR>首先,它能散發出亮度猶勝超能閃耀之光的光芒,不但能讓穿戴者猶如手持著電筒般視野開闊,還能讓他猶如暗夜裏的螢火蟲般廣受矚目.<BR>其次,這種護腿不但能抵禦火焰傷害,還能將其轉換為治愈效果.按U可關閉護甲特殊效果.
 ttresearch.page.ICHORCLOTH_LEGS_GEM.1=如你出於某種原因寧可靜默於黑暗,只須拿著護腿按住shift右擊即可關閉它的照明功能.
@@ -518,16 +518,16 @@ ttresearch.page.ICHORCLOTH_BOOTS_GEM.0=你研究出一種方法,能夠改造靈�
 # -- FELINE AMULET
 ttresearch.name.CAT_AMULET=貓神護身符
 ttresearch.lore.CAT_AMULET=別在茶餐廳和貓打架
-ttresearch.page.CAT_AMULET.0=沒費多久功夫,你就想出法子讓那些你憎惡的爬行者再也無法近身.<BR><BR>最終,利用爬行者畏懼貓的知識,你設計出了一枚能讓爬行者避之如虎的護身符.不僅如此,這些可憐的家夥嚇得發楞,都聚集不起火力自爆了.讚耶!裝備在項鏈欄才有效.
+ttresearch.page.CAT_AMULET.0=沒費多久功夫,你就想出法子讓那些你憎惡的苦力怕再也無法近身.<BR><BR>最終,利用苦力怕畏懼貓的知識,你設計出了一枚能讓苦力怕避之如虎的護身符.不僅如此,這些可憐的家夥嚇得發楞,都聚集不起火力自爆了.讚耶!裝備在項鏈欄才有效.
 
 # -- ICHORIUM TOOLS
 ttresearch.name.ICHOR_TOOLS=靈錠工具
 ttresearch.lore.ICHOR_TOOLS=最頂級的耗子…工具
-ttresearch.page.ICHOR_TOOLS.0=你發現了如何利用靈錠制作工具.這些工具非常強大,比鉆石做的還了不起,更了不起的是,還不用壞.<BR><BR>要制作這樣了不起的工具,木棍當手柄就不太合適了,你決定換成銀樹杖芯來代替.
+ttresearch.page.ICHOR_TOOLS.0=你發現了如何利用靈錠制作工具.這些工具非常強大,比鑽石做的還了不起,更了不起的是,還不用壞.<BR><BR>要制作這樣了不起的工具,木棍當手柄就不太合適了,你決定換成銀樹杖芯來代替.
 
 # -- AWAKENED ICHORIUM PICKAXE
 ttresearch.name.ICHOR_PICK_GEM=覺醒靈錠鎬
-ttresearch.lore.ICHOR_PICK_GEM=誰還會需要采石場?
+ttresearch.lore.ICHOR_PICK_GEM=誰還會需要採石場?
 ttresearch.page.ICHOR_PICK_GEM.0=你喚醒了靈錠鎬真正的力量.這柄鎬子不僅將保留沈睡狀態下具有的一應能力,還獲得了模式切換功能,只需要按住shift右擊即可.<BR><BR>在方塊模式(綠色)下它按正常方式挖掘.<BR><BR>在正方模式(紅色)下它會一次挖出5x5的區域,為方便故,該區域位置會相對挖掘起始位置有所偏移.<BR><BR>在線型模式(藍色)下
 ttresearch.page.ICHOR_PICK_GEM.1=它會從起始方塊開始呈直線挖下10格方塊.甚至能破開基巖,讓你進入大地之核.你相信在那裏挖掘收獲會更加豐碩.
 
@@ -544,7 +544,7 @@ ttresearch.page.ICHOR_AXE_GEM.0=你喚醒了靈錠斧真正的力量.這柄斧�
 
 # -- AWAKENED ICHORIUM SWORD
 ttresearch.name.ICHOR_SWORD_GEM=覺醒靈錠劍
-ttresearch.lore.ICHOR_SWORD_GEM=以撒的媽刀
+ttresearch.lore.ICHOR_SWORD_GEM=老媽的菜刀
 ttresearch.page.ICHOR_SWORD_GEM.0=你喚醒了靈錠劍真正的力量.這柄劍不僅將保留沈睡狀態下具有的一應能力,還獲得了模式切換功能,只需要按住shift右擊即可.<BR><BR>在單殺模式(綠色)下它按正常方式進行攻擊.<BR><BR>在區域模式(紅色)下它將會傷害到被擊中目標三格範圍的所有生物.<BR><BR>在狩魂模式(藍色)下它的威力將會略微減小,但每一擊都能使得持劍者增加一顆魂心. <BR>[下頁]
 ttresearch.page.ICHOR_SWORD_GEM.1=魂心相當於一次性的生命值.如角色擁有魂心,魂心條將會顯示在飽腹度上方,狀如金屬.它們能夠代替玩家承受傷害,而它們受到傷害後會隨之消失.
 
@@ -554,24 +554,24 @@ ttresearch.lore.ICHOR_POUCH=哈哈,他說袋子底
 ttresearch.page.ICHOR_POUCH.0=向核心手袋灌註便攜式洞穴核心的魔力,你設法讓它不僅能夠容納更多核心,還能提供極大的額外儲物空間.<BR><BR>無底袋內部不僅能容納超過4個箱子的物品,還具有普通核心手袋兩倍的核心容納空間,允許裝入其內的核心參與核心切換操作.現在你可以和那些裝不下之類問題吻別了.
 
 # -- BLACK HOLE TALISMAN
-ttresearch.name.BLOCK_TALISMAN=黑洞指環
+ttresearch.name.BLOCK_TALISMAN=黑洞戒指
 ttresearch.lore.BLOCK_TALISMAN=頭腦所不能承受之壓
-ttresearch.page.BLOCK_TALISMAN.0=這枚指環能夠被用來壓縮放置任意類型的方塊.手持它拿著某種方塊右擊即可建立綁定關系,此後按住右鍵就能將物品欄中的數量超過一個堆疊的同類方塊收諸其內,並會保留至少一個堆疊於物品欄.收入的物品通過右擊可以放回物品欄,也可以直接放置在地上.<BR><BR>它最多能容納超過2百萬同類型的方塊,這下子不會存在圓石沒地方擱的問題了吧.護身符空置時按住shift右擊可以切換綁定對象.
+ttresearch.page.BLOCK_TALISMAN.0=這枚戒指能夠被用來壓縮放置任意類型的方塊.手持它拿著某種方塊右擊即可建立綁定關系,此後按住右鍵就能將物品欄中的數量超過一個堆疊的同類方塊收諸其內,並會保留至少一個堆疊於物品欄.收入的物品通過右擊可以放回物品欄,也可以直接放置在地上.<BR><BR>它最多能容納超過2百萬同類型的方塊,這下子不會存在圓石沒地方擱的問題了吧.護身符空置時按住shift右擊可以切換綁定對象.
 
 # -- WORLDSHAPER'S LOOKING GLASS
 ttresearch.name.PLACEMENT_MIRROR=世界塑造者的觀察鏡
 ttresearch.lore.PLACEMENT_MIRROR=水銀之眼
-ttresearch.page.PLACEMENT_MIRROR.0=通過研究這個世界,你制造出一枚透鏡,能夠讓你使用意念將大量的方塊放置到大地上.<BR><BR>拿著這枚透鏡右擊某種方塊就能將其設置成指定方塊.對著空氣按住shift右擊就能切換要放置的方塊數量.<BR><BR>放置前會生成預覽幻象,右擊則會消耗方塊將其放置出來,方塊的來源既可以是物品欄,也可以是黑洞護身符,只要裝有足夠數量的指定方塊即可.
+ttresearch.page.PLACEMENT_MIRROR.0=通過研究這個世界,你製造出一枚透鏡,能夠讓你使用意念將大量的方塊放置到大地上.<BR><BR>拿著這枚透鏡右擊某種方塊就能將其設置成指定方塊.對著空氣按住shift右擊就能切換要放置的方塊數量.<BR><BR>放置前會生成預覽幻象,右擊則會消耗方塊將其放置出來,方塊的來源既可以是物品欄,也可以是黑洞護身符,只要裝有足夠數量的指定方塊即可.
 
 # -- WAND FOCUS: SHADOWBEAM
 ttresearch.name.FOCUS_SHADOWBEAM=法杖核心:陰影之束
-ttresearch.lore.FOCUS_SHADOWBEAM=老人看守
-ttresearch.page.FOCUS_SHADOWBEAM.0=你制造出一種法杖核心,能夠發出一道能量束,灼傷它所掃過路徑上的所有生物.<BR><BR>能量束射程相當遠,並且能夠在鏡面方塊上進行反射.
+ttresearch.lore.FOCUS_SHADOWBEAM=老人看守者
+ttresearch.page.FOCUS_SHADOWBEAM.0=你製造出一種法杖核心,能夠發出一道能量束,灼傷它所掃過路徑上的所有生物.<BR><BR>能量束射程相當遠,並且能夠在鏡面方塊上進行反射.
 
 # -- WAND FOCUS: EXPERIENCE DRAIN
 ttresearch.name.FOCUS_XP_DRAIN=法杖核心:經驗抽取
 ttresearch.lore.FOCUS_XP_DRAIN=環保魔力
-ttresearch.page.FOCUS_XP_DRAIN.0=自從制造出蘊含著瘋狂數量的魔力的法杖,你就打定主意想要研究出魔力的替代資源.<BR><BR>最終,你制造出一種能夠抽取經驗池,將其快速地轉換成魔力的法杖核心,可惜效率並不是非常高.
+ttresearch.page.FOCUS_XP_DRAIN.0=自從製造出蘊含著瘋狂數量的魔力的法杖,你就打定主意想要研究出魔力的替代資源.<BR><BR>最終,你製造出一種能夠抽取經驗池,將其快速地轉換成魔力的法杖核心,可惜效率並不是非常高.
 
 # -- PROTOCLAY
 ttresearch.name.PROTOCLAY=息壤
@@ -592,11 +592,11 @@ ttresearch.page.FOCUS_RECALL.0=使用天域之門傳送固然很好,但你決心
 # -- FIRE
 ttresearch.name.FIRE_IGNIS=元素之焰:閻火
 ttresearch.lore.FIRE_IGNIS=往火裡注入.....更多的火!
-ttresearch.page.FIRE_IGNIS.0=你想方設法增強超能閃耀之光的破壞力.當你在地上點燃這種火,它就會將所燒的方塊轉變為在下界等價的形式.
+ttresearch.page.FIRE_IGNIS.0=你想方設法增強超能閃耀之光的破壞力.當你在地上點燃這種火,它就會將所燒的方塊轉變為在地獄等價的形式.
 
 ttresearch.name.FIRE_AQUA=元素之焰:坎水
 ttresearch.lore.FIRE_AQUA=火上澆水,該熄了吧
-ttresearch.page.FIRE_AQUA.0=你已能完全逆轉火焰的破壞力.這種火,若在下界燃燒,會將那裏變為你的私家冬季樂園.
+ttresearch.page.FIRE_AQUA.0=你已能完全逆轉火焰的破壞力.這種火,若在地獄燃燒,會將那裏變為你的私家冬季樂園.
 
 ttresearch.name.FIRE_AER=元素之焰:炫風
 ttresearch.lore.FIRE_AER=姑妄信之也是蠻有用的技能
